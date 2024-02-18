@@ -66,13 +66,13 @@
     "true" "false"
 
     ;;; struct decl
-    "message" "enum" "service"
+    "message" "enum" "service" "oneof"
 
     ;;; other decl
     "package" "import"
 
     ;;; other
-    "default" "max" "syntax"
+    "default" "max" "syntax" "stream"
     ))
 
 ;;;###autoload
